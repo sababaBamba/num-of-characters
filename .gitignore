@@ -5,12 +5,12 @@
 int main()
 {
     char myString[509];
-    int length;
+    int length = 0;
 
     printf("write a fan faction\n");
     scanf("%s" , myString);
 
-    while(myString[i] != '0')
+    while(myString[length] != '0')
     {
         length++;
     }
