@@ -10,7 +10,7 @@ int main()
     printf("write a fan faction\n");
     scanf("%s" , myString);
 
-    for(i = 0; myString[i] != '\0' ; i++)
+    while(myString[i] != '0')
     {
         length++;
     }
